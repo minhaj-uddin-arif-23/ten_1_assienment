@@ -255,7 +255,7 @@ line-height: 37px
     /* margin: 60px auto; */
     margin: 0 auto;
     padding: 60px 0px;
-    background-image: url(/asstes/handshake.jpg);
+    background-image: url(../asstes/handshake.jpg);
     background-position: center;
     background-size: cover;
     border-radius:18px;
