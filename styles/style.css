@@ -9,6 +9,11 @@ body{
     font-family: Azeret Mono;
 }
 /* banner content */
+
+
+
+
+
 #hero{
     max-width:1440px;
     height:615px;
@@ -149,18 +154,25 @@ margin-top: 100px;
     width: 1140px;
     height: 1000pxpx;
     margin-top: 50px;
+   
     /* padding: 10px 20px; */
   
 }
 #card-box .container{
-    margin-top:20px ;
+    margin-top:25px ;
+    
+    /* padding: 10px 20px; */
 }
 #card-box .card-btn{
     padding: 10px 15px;
     cursor: pointer;
+    
+   
 }
 #card-box .real-container .sec-title{
     margin-top: 20px;
+    margin-bottom: 30px;
+    
 }
  #card-box .second-container{
     display: flex;
@@ -169,15 +181,26 @@ margin-top: 100px;
     padding: 30px 40px;
     width: 70%;
     margin:0 auto;
+    margin-bottom: 30px;
+    
     /* border: 2px solid red; */
  }
  #card-box .second-container .imoge{
     height: 250px;
+    
  }
- #card-box .second-container h3{
-    margin-top: 20px;
+ #card-box .second-container  p {
+    margin-bottom: 30px;
+    /* padding: 10px 20px; */
+    color: rgb(13, 19, 33);
+    font-size: 13px;
+    font-weight: 400;
  }
-
+ #card-box h3 {
+    margin-bottom: 40px;
+    color: rgba(13, 19, 33, 0.7);
+ }
+ 
 
 /*  my next target part */
 .skills-2{
@@ -282,7 +305,7 @@ margin-top: 100px;
 }
 
 /*  end  about style */
-.end{
+#end{
     background-color: #F7F8F8;
     display: flex;
     justify-content: space-between;
